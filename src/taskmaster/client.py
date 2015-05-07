@@ -8,7 +8,7 @@ taskmaster.consumer
 
 import cPickle as pickle
 import gevent
-from gevent_zeromq import zmq
+import zmq.green as zmq
 from gevent.queue import Queue
 from taskmaster.constants import DEFAULT_LOG_LEVEL, DEFAULT_CALLBACK_TARGET
 from taskmaster.util import import_target, get_logger

@@ -10,7 +10,7 @@ import cPickle as pickle
 import gevent
 import hashlib
 import sys
-from gevent_zeromq import zmq
+import zmq.green as zmq
 from gevent.queue import Queue, Empty
 from os import path, unlink, rename
 from taskmaster.constants import DEFAULT_LOG_LEVEL, DEFAULT_ITERATOR_TARGET

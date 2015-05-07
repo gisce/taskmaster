@@ -26,7 +26,6 @@ Requirements **should** be handled by setuptools, but if they are not, you will 
 * progressbar
 * pyzmq (zeromq)
 * gevent
-* gevent_zeromq
 
 
 A note on Gevent
